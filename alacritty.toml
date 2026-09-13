@@ -1,0 +1,50 @@
+[colors.primary]
+background = "#01263d"
+foreground = "#e2e0dd"
+
+[window]
+opacity = 0.8
+
+[colors.cursor]
+text = "#01263d"
+cursor = "#f2f0ee"
+
+[colors.vi_mode_cursor]
+text = "#01263d"
+cursor = "#f2f0ee"
+
+[colors.search.matches]
+foreground = "#01263d"
+background = "#e8d8a8"
+
+[colors.search.focused_match]
+foreground = "#01263d"
+background = "#e08f8f"
+
+[colors.footer_bar]
+foreground = "#01263d"
+background = "#e2e0dd"
+
+[colors.selection]
+text = "#f2f0ee"
+background = "#043a5c"
+
+[colors.normal]
+black = "#01263d"
+red = "#e08f8f"
+green = "#8fc7b0"
+yellow = "#e8d8a8"
+blue = "#93bfdc"
+magenta = "#a9a6d4"
+cyan = "#5ec4f0"
+white = "#e2e0dd"
+
+[colors.bright]
+black = "#56718c"
+red = "#e08f8f"
+green = "#8fc7b0"
+yellow = "#e8d8a8"
+blue = "#93bfdc"
+magenta = "#a9a6d4"
+cyan = "#5ec4f0"
+white = "#f2f0ee"
