@@ -4,6 +4,12 @@ A dark, translucent theme for [Omarchy](https://omarchy.org), sampled from the
 [Vast Snow Mountains](https://unsplash.com/photos/sMJaf08ugD0) photo by
 Nicolas Prieto — deep shadowed blues with snow-white text.
 
+> ⚠️ **Full translucency needs the companion plugin.** The gallery install
+> applies the shell transparency automatically, but windows and terminals
+> stay opaque until you install
+> [aether-opacity](https://github.com/Linar46/aether-opacity) and run
+> `aether-opacity set 0.8` — see [Translucency](#translucency) below.
+
 ## Install
 
 ```bash
