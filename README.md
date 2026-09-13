@@ -34,12 +34,22 @@ The theme ships with translucency baked in:
 - Window decoration opacity **0.80 active / 0.66 inactive** in `hyprland.lua`
 - Terminals at **0.80** (alacritty, foot, ghostty, kitty configs)
 
-> Note: `omarchy theme install` regenerates `*.lua` and the terminal configs
-> from `colors.toml` for security, so after a git-clone install those files'
-> opacity values are not applied automatically. Restore the full translucency
-> with the [aether-opacity](https://github.com/Linar46/aether-opacity) plugin
-> (`aether-opacity set 0.8`), or copy the shipped files into
-> `~/.config/omarchy/themes/vast-snow-mountains/` manually.
+`omarchy theme install` refuses Lua and terminal config files from a git
+clone for security, so after installing from the gallery only the shell
+alphas apply automatically. To get the full translucency in one step, use
+the [aether-opacity](https://github.com/Linar46/aether-opacity) plugin —
+it converts the clone to an editable local copy, generates the window and
+terminal opacity overrides, and re-applies the theme:
+
+```bash
+omarchy plugin add https://github.com/Linar46/aether-opacity.git
+~/.config/omarchy/plugins/io.github.linar46.aether-opacity/install
+aether-opacity set 0.8
+```
+
+That gives windows **0.80/0.66**, shell surfaces **0.80**, lock **0.65**, and
+terminals **0.80** — matching the values shipped in this repo. `aether-opacity
+off` turns everything fully opaque.
 
 ## Status
 
