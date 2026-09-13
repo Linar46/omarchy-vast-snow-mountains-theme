@@ -13,7 +13,7 @@ Nicolas Prieto — deep shadowed blues with snow-white text.
 ## Install
 
 ```bash
-omarchy theme install https://github.com/Linar46/vast-snow-mountains.git
+omarchy theme install https://github.com/Linar46/omarchy-vast-snow-mountains-theme.git
 omarchy theme set vast-snow-mountains
 ```
 
